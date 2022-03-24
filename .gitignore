@@ -1,0 +1,8 @@
+.vscode/tasks.json
+bin/main
+.vscode/targets.log
+.vscode/settings.json
+.vscode/launch.json
+.vscode/dryrun.log
+.vscode/configurationCache.log
+.vscode/.easycpp
