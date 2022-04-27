@@ -45,25 +45,9 @@ private:
     } SHA256_CTX;
 
     static void SHA256Transform(SHA256_CTX *ctx, uchar data[]);
-
     static void SHA256Init(SHA256_CTX *ctx);
-
     static void SHA256Update(SHA256_CTX *ctx, uchar data[], uint len);
-
     static void SHA256Final(SHA256_CTX *ctx, uchar hash[]);
-
 public:
     static string SHA256(char* data);
 };
-
-/*
-TODO: Rsa implementation
-
-int* keyPair();
-
-int* encrypt();
-
-int* decrypt();
-
-int* sign();
-*/

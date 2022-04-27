@@ -14,7 +14,6 @@ private:
     Chain(const Chain&);
     Chain& operator=(const Chain&);
 public:
-    //TODO nonce and mining to validate transactions
     unsigned int chainLength;
     static Chain* getInstance();
     Block* chain[1000];

@@ -13,9 +13,4 @@ public:
     string publicKey;
     Wallet();
     void sendMoney(string receiver, int amount);
-    /*
-    TODO: RSA/Signing implementation, blockchain is currently insecure
-    int privateKey;
-    int amount; (currently just a ledger)
-    */
 };
